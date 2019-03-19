@@ -5,15 +5,10 @@ The number gets factored down very efficiently within seconds if it is of the ab
 
 ## ALGORITHM
 Put t0=ceil(sqrt(n))
+
 then find sqrt(pow((t0+1),2)-n),sqrt(pow((t0+2),2)-n),sqrt(pow((t0+3),2)-n),........
+
 until the value of the sqrt will be a natural number.
-
-For example : n = 180248496761613949708798168041280051859
-
-Step 1  : t0=13425665598457827328
-Step 2  : sqrt(pow((t0+1),2)-n) = 145385592454.3622  (result is not a natural number :(  )
-Step 3  : sqrt(pow((t0+2),2)-n) = 145477908372.72446
-Step 4  : sqrt(pow((t0+3),2)-n) = 145570165747.31146
 
 ```markdown
 Syntax highlighted code block
