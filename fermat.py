@@ -11,6 +11,5 @@ t=t0+counter
 s=ans
 p=t-s
 q=t+s
-print("Your first number	",int(p))
-print("Second	number	",int(q))
-
+print("Your first number   : ",int(p))
+print("Your Second number  : ",int(q))
