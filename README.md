@@ -1,12 +1,19 @@
-## Welcome to GitHub Pages
+## A Little Theory on Fermat Factorizaion
+Fermat factorization can be used to factor a number which is a multiple of 2 close "prime number" i.e. n=p*q form.
 
-You can use the [editor on GitHub](https://github.com/d4rkvaibhav/Fermat-Factorization/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The number gets factored down very efficiently within seconds if it is of the above form.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## ALGORITHM
+Put t0=ceil(sqrt(n))
+then find sqrt(pow((t0+1),2)-n),sqrt(pow((t0+2),2)-n),sqrt(pow((t0+3),2)-n),........
+until the value of the sqrt will be a natural number.
 
-### Markdown
+For example : n = 180248496761613949708798168041280051859
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Step 1  : t0=13425665598457827328
+Step 2  : sqrt(pow((t0+1),2)-n) = 145385592454.3622  (result is not a natural number :(  )
+Step 3  : sqrt(pow((t0+2),2)-n) = 145477908372.72446
+Step 4  : sqrt(pow((t0+3),2)-n) = 145570165747.31146
 
 ```markdown
 Syntax highlighted code block
