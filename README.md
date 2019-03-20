@@ -36,19 +36,21 @@ So one number will be (p) : t+s = 823456805645189197
 Other number (q)  : t-s = 823456789127398407
 
 ```markdown
-Syntax highlighted code block
+Function for fermat factor 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Code 
+`def fermat(n):
+	t0=isqrt(n)+1
+	counter=0
+	t=t0+counter
+	temp=isqrt((t*t)-n)
+	while((temp*temp)!=((t*t)-n)):
+		counter+=1
+		t=t0+counter
+		temp=isqrt((t*t)-n)
+	s=temp
+	p=t+s
+	q=t-s
+	return p,q
+ `
 ```
