@@ -55,3 +55,5 @@ def fermat(n):
 	return p,q
  `
 ```
+
+**Get full code [here](https://github.com/d4rkvaibhav/Fermat-Factorization/blob/master/fermat.py)**
