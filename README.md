@@ -1,7 +1,10 @@
-## A Little Theory on Fermat Factorizaion
+## A Little Theory on Fermat Factorization
 Fermat factorization can be used to factor a number which is a multiple of 2 close "prime number" i.e. n=p*q form.
 
 The number gets factored down very efficiently within seconds if it is of the above form.
+
+You can use Fermat factorization in for fatoring public key(n) in RSA or any other cryptosystem if you think that the two prime are close enough that can be factored using fermat.
+
 
 ## ALGORITHM
 Put t₀=ceil(sqrt(n))
@@ -19,11 +22,6 @@ Step 2  : sqrt(pow((t₀+1),2)-n) ->  1527353709.7374346  not a natural number :
 Step 3  : sqrt(pow((t₀+2),2)-n) ->  1994924296.6642346  not a natural number :(
 
 Step 4  : sqrt(pow((t₀+3),2)-n) ->  2372053233.8448644  not a natural number :(
-
-.
-
-.
-
 
 when t₀+41 the result of sqrt(pow((t₀+41),2)-n) comes out to be a natural number which is 8258895395
 
@@ -56,4 +54,4 @@ def fermat(n):
  `
 ```
 
-**Get full code [here](https://github.com/d4rkvaibhav/Fermat-Factorization/blob/master/fermat.py)**
+## **Get full code [here](https://github.com/d4rkvaibhav/Fermat-Factorization/blob/master/fermat.py)**
