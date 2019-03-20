@@ -1,12 +1,10 @@
 def isqrt(n):
-  x = n
-  y = (x + n // x) // 2
-  while y < x:
-    x = y
-    y = (x + n // x) // 2
-  return x
-
-
+	x=n
+	y=(x+n//x)//2
+	while(y<x):
+		x=y
+		y=(x+n//x)//2
+	return x
 def fermat(n):
 	t0=isqrt(n)+1
 	counter=0
