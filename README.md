@@ -39,6 +39,7 @@ Other number (q)  : t-s = 823456789127398407
 Function for fermat factor 
 
 # Code 
+`
 def fermat(n):
 	t0=isqrt(n)+1
 	counter=0
@@ -52,5 +53,5 @@ def fermat(n):
 	p=t+s
 	q=t-s
 	return p,q
- 
+ `
 ```
