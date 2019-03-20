@@ -24,9 +24,6 @@ Step 4  : sqrt(pow((t₀+3),2)-n) ->  2372053233.8448644  not a natural number :
 
 .
 
-.
-
-.
 
 when t₀+41 the result of sqrt(pow((t₀+41),2)-n) comes out to be a natural number which is 8258895395
 
@@ -55,13 +52,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/d4rkvaibhav/Fermat-Factorization/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
