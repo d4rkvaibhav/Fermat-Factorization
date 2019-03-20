@@ -54,4 +54,6 @@ def fermat(n):
  `
 ```
 
-## **Get full code [here](https://github.com/d4rkvaibhav/Fermat-Factorization/blob/master/fermat.py)**
+## Full Python code
+
+**Get full code [here](https://github.com/d4rkvaibhav/Fermat-Factorization/blob/master/fermat.py)**
